@@ -1,14 +1,22 @@
 title: 알콩
-description: 둘이 답을 맞춰가는 우리 사이 — 정책·약관·지원
+description: 오늘 한 문제, 우리만의 답
 baseurl: "/alkong-site"
 url: "https://deepsoilworm.github.io"
 
-theme: jekyll-theme-minimal
+# 자체 layout 사용 — Jekyll 기본 minimal 테마 제거.
+theme: null
+plugins: []
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 
-# 한국어 우선.
+# 한국어 우선 (영문은 /en/).
 lang: ko
 
 # 빌드 제외.
 exclude:
   - README.md
   - LICENSE
+  - Gemfile
+  - Gemfile.lock

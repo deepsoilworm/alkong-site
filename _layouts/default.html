@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#B5A9F3" />
+  <title>{% if page.title and page.title != site.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-logo" href="{{ '/' | relative_url }}{% if page.lang == 'en' %}en/{% endif %}">
+      <span class="logo-mark"></span>
+      <span class="logo-text">알콩</span>
+    </a>
+    <nav class="site-lang">
+      {% if page.lang == 'en' %}
+        <a href="{{ page.ko_href | default: '/' | relative_url }}">한국어</a>
+      {% else %}
+        <a href="{{ page.en_href | default: '/en/' | relative_url }}">English</a>
+      {% endif %}
+    </nav>
+  </header>
+
+  <main class="site-main">
+    <article class="page">
+      {{ content }}
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-tagline">
+        {% if page.lang == 'en' %}One question a day. Our own answer.{% else %}오늘 한 문제, 우리만의 답.{% endif %}
+      </p>
+      <p class="footer-contact">
+        <a href="mailto:deepsoilworm@gmail.com">deepsoilworm@gmail.com</a>
+      </p>
+      <p class="footer-copy">© 2026 알콩</p>
+    </div>
+  </footer>
+</body>
+</html>
