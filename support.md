@@ -3,7 +3,7 @@ layout: default
 title: 지원·문의
 permalink: /support/
 lang: ko
-en_href: /alkong-site/en/support/
+en_href: /en/support/
 ---
 
 # 지원·문의

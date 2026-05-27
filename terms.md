@@ -3,7 +3,7 @@ layout: default
 title: 이용약관
 permalink: /terms/
 lang: ko
-en_href: /alkong-site/en/terms/
+en_href: /en/terms/
 ---
 
 # 이용약관

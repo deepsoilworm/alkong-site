@@ -3,7 +3,7 @@ layout: default
 title: 개인정보처리방침
 permalink: /privacy/
 lang: ko
-en_href: /alkong-site/en/privacy/
+en_href: /en/privacy/
 ---
 
 # 개인정보처리방침

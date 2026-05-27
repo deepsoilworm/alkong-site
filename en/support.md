@@ -3,7 +3,7 @@ layout: default
 title: Support
 permalink: /en/support/
 lang: en
-ko_href: /alkong-site/support/
+ko_href: /support/
 ---
 
 # Support

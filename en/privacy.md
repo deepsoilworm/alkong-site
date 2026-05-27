@@ -3,7 +3,7 @@ layout: default
 title: Privacy Policy
 permalink: /en/privacy/
 lang: en
-ko_href: /alkong-site/privacy/
+ko_href: /privacy/
 ---
 
 # Privacy Policy

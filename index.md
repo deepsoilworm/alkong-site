@@ -3,7 +3,7 @@ layout: default
 title: 알콩
 description: 오늘 한 문제, 우리만의 답
 lang: ko
-en_href: /alkong-site/en/
+en_href: /en/
 ---
 
 # 오늘 한 문제, 우리만의 답.

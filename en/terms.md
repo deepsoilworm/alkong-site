@@ -3,7 +3,7 @@ layout: default
 title: Terms of Service
 permalink: /en/terms/
 lang: en
-ko_href: /alkong-site/terms/
+ko_href: /terms/
 ---
 
 # Terms of Service

@@ -4,7 +4,7 @@ title: Alkong
 description: One question a day. Our own answer.
 lang: en
 permalink: /en/
-ko_href: /alkong-site/
+ko_href: /
 ---
 
 # One question a day. Our own answer.
