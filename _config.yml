@@ -1,0 +1,14 @@
+title: 알콩
+description: 둘이 답을 맞춰가는 우리 사이 — 정책·약관·지원
+baseurl: "/alkong-site"
+url: "https://deepsoilworm.github.io"
+
+theme: jekyll-theme-minimal
+
+# 한국어 우선.
+lang: ko
+
+# 빌드 제외.
+exclude:
+  - README.md
+  - LICENSE
